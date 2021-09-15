@@ -15,4 +15,4 @@ def docs():
 
 @app.route("/docs/README.md")
 def docs_return():
-    return render_template("README.md")
+    return render_template("docs.md")
